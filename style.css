@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+li {
+  display: inline-block;
+  padding-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+.menu:hover {
+  color: rgb(150, 150, 161);
+}
+.name {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(186, 204, 207, 0.925);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 50px;
+}
+img {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: justify;
+  max-width: 700px;
+}
+
+.red {
+  border-radius: 100%;
+  background-color: rgb(216, 29, 60);
+  padding: 5%;
+  margin: 15px;
+}
+.green {
+  border-radius: 100%;
+  background-color: rgb(6, 209, 216);
+  padding: 5%;
+  margin: 15px;
+}
+.yellow {
+  border-radius: 100%;
+  background-color: rgb(231, 209, 14);
+  padding: 5%;
+  margin: 15px;
+}
+footer {
+  height: 150px;
+  background-color: rgb(216, 29, 60);
+  text-align: center;
+}
+.icon {
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(6, 209, 216);
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.skill {
+  background-color: rgb(150, 150, 161);
+  text-align: center;
+}
+.table {
+  margin: auto;
+}
